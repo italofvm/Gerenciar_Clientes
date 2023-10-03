@@ -8,8 +8,7 @@ import { Cliente } from "../modelo/Cliente";
 })
 export class ClienteService {
   // Url da API
-  private url: string =
-    "http://root:sfond3S8IQpnxvkc1i3R@containers-us-west-157.railway.app";
+  private url: string = "https://gerenciarclientes-prd.up.railway.app/";
 
   // Construtor
   constructor(private http: HttpClient) {}

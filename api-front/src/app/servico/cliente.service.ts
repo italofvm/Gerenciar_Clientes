@@ -8,7 +8,7 @@ import { Cliente } from "../modelo/Cliente";
 })
 export class ClienteService {
   // Url da API
-  private url: string = "https://sua-url-no-railway.railway.app";
+  private url: string = "http://localhost:8080";
 
   // Construtor
   constructor(private http: HttpClient) {}

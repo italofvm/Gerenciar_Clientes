@@ -4,6 +4,6 @@ spring:
     username: ${MYSQLUSER}
     password: ${MYSQLPASSWORD}
   jpa:
-    hibernate.ddl-auto: update
+    hibernate.ddl-auto: validate
     generate-ddl: true
     show-sql: true
